@@ -1,6 +1,6 @@
 # Clear Technical English
 
-A practical writing skill inspired by ASD Simplified Technical English and the Medium article linked in [SOURCES.md](SOURCES.md).
+A practical writing skill inspired by [ASD Simplified Technical English](https://www.asd-ste100.org/index.html) and the Medium article linked in [SOURCES.md](SOURCES.md).
 
 It helps an AI assistant use short sentences, consistent technical terms and clear instructions while preserving the intended meaning.
 

@@ -4,6 +4,8 @@ Version 0.3.1. Reviewed on 11 November 2026.
 
 ## Complete current public site navigation
 
+Official source: [ASD-STE100 Simplified Technical English homepage](https://www.asd-ste100.org/index.html), maintained by the ASD Simplified Technical English Maintenance Group (STEMG).
+
 The review followed internal page links from the home page and checked the sitemap. All 11 sitemap pages were retrieved and read. The root URL duplicates index.html, giving 12 successful page requests. There were no queued internal pages left. This covers the current public navigation and sitemap, not every historic or unlinked URL that might exist.
 
 | Page | Relevance |
