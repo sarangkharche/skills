@@ -8,6 +8,25 @@ It helps an AI assistant use short sentences, consistent technical terms and cle
 
 Use it for technical explanations, documentation and rewrites. It is a writing aid rather than a reasoning audit or a formal STE compliance checker.
 
+## With and without the skill
+
+These are unchanged excerpts from the same rewrite request in two fresh Haiku 5.5 sessions. The baseline had no skills enabled. The other session had only Clear Technical English enabled.
+
+### Without the skill
+
+> Before starting the staging deployment, the operator must confirm that all 12 local tests have passed and that CI has completed successfully. If either condition is not met, the deployment must not proceed.
+
+### With the skill
+
+> Before you start the staging deployment, confirm both of these conditions:
+>
+> 1. All 12 local tests have passed.
+> 2. CI has completed successfully.
+>
+> Do not deploy if either condition is not met.
+
+The skill separates the two prerequisites into a numbered list and addresses the reader directly. Both excerpts retain the test and CI conditions. This illustrates one result, not a guarantee that every answer will improve.
+
 ## Install
 
 Clone the repository and enter its directory:
