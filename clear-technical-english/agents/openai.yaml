@@ -1,0 +1,7 @@
+interface:
+  display_name: "Clear Technical English"
+  short_description: "Clear technical writing that preserves meaning"
+  default_prompt: "Use $clear-technical-english to explain this clearly while preserving technical detail and uncertainty."
+
+policy:
+  allow_implicit_invocation: true
