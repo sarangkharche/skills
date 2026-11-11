@@ -1,63 +1,70 @@
 # Skills
 
-Reusable AI skills for technical work, maintained by Sarang Kharche.
+A collection of reusable AI skills, maintained by Sarang Kharche.
+
+Each skill lives in its own folder. Its README explains what it does, how to use it and any requirements. The SKILL.md file contains the instructions that the assistant reads.
 
 ## Available skills
 
 | Skill | Purpose |
 | --- | --- |
-| [Clear Technical English](clear-technical-english/SKILL.md) | Clearer technical explanations, consistent terminology and readable instructions |
+| [Clear Technical English](clear-technical-english/README.md) | Clearer technical explanations and instructions |
 
-## Install
+## Install a skill
 
 Clone this repository:
 
 ```sh
 git clone https://github.com/sarangkharche/skills.git
+cd skills
 ```
+
+Choose a skill and copy its complete folder into the directory for your assistant. Replace `skill-name` below with the folder name. Run these commands from the cloned repository.
 
 ### Claude Code
 
-Copy the skill folder into your personal skills directory:
-
 ```sh
 mkdir -p ~/.claude/skills
-cp -R skills/clear-technical-english ~/.claude/skills/
+cp -R ./skill-name ~/.claude/skills/
 ```
 
-Start a new chat and use:
-
-```text
-/clear-technical-english Explain this service
-```
-
-For a shared project installation, copy the folder into your project's `.claude/skills/` directory instead.
+For a shared project installation, use the project's `.claude/skills/` directory instead.
 
 ### Codex
 
-Copy the same folder into your personal skills directory:
-
 ```sh
 mkdir -p ~/.codex/skills
-cp -R skills/clear-technical-english ~/.codex/skills/
+cp -R ./skill-name ~/.codex/skills/
 ```
 
-Start a new chat and use:
+Start a new chat after installation. Check the skill's README for any additional setup.
+
+## Use a skill
+
+In Claude Code:
 
 ```text
-$clear-technical-english Explain this service
+/skill-name Your request
 ```
 
-Automatic selection is enabled in the skill metadata. Whether it is selected depends on the request and your assistant's instructions. Installing it alone does not force it to be used on every technical answer.
+In Codex:
 
-## Validation
+```text
+$skill-name Your request
+```
 
-Clear Technical English was tested on a sample rewrite in Claude Code 2.1.311 with Haiku 5.5. The comparison used two fresh sessions, with all other skills disabled. The skill improved paragraph structure and retained the supplied technical details and health check recommendation in that example.
+Assistants may also select relevant skills automatically. This depends on the skill metadata, the client and your instructions.
 
-Automatic selection was also observed in one fresh local Codex chat. These small checks do not establish consistent improvement across all tasks or models.
+## Update an installed skill
 
-## Sources and scope
+Pull the latest repository changes and copy the skill folder again. Save any local customisations first.
 
-[Source notes](clear-technical-english/SOURCES.md) document the article, official website review and limits of the standard review.
+## Add a skill
 
-This repository contains original writing guidance and examples. It does not bundle the Medium article, the ASD standard, its dictionary or third party branding. It is independent of ASD and makes no claim of endorsement or full compliance.
+Create a folder named after the skill. Include:
+
+1. `SKILL.md` with its name, description and instructions
+2. `README.md` with its purpose, installation, usage examples and limitations
+3. Any supporting references, assets or scripts that the skill needs
+
+Keep instructions and examples specific to each skill in its own folder. Add a link to its README in the table above.
