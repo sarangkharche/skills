@@ -1,6 +1,6 @@
 ---
 name: pastel-technical-diagrams
-description: Create or refine editable Draw.io diagrams in Sarang's pastel technical presentation style. Use for technical diagrams, architecture, information flows, comparison stacks, charts and diagram summary slides when this saved style is wanted. Preserve an explicitly requested different style or format.
+description: Create or refine editable Draw.io diagrams in Sarang's pastel technical presentation style. Automatically use for all diagram requests from Sarang, including technical diagrams, architecture, information flows, comparison stacks, charts and diagram summary slides, without requiring him to name this skill. Preserve an explicitly requested different style or format.
 ---
 
 # Pastel Technical Diagrams

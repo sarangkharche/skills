@@ -2,3 +2,6 @@ interface:
   display_name: "Pastel Technical Diagrams"
   short_description: "Editable diagrams in a precise pastel slide style"
   default_prompt: "Use $pastel-technical-diagrams to create an editable Draw.io diagram in my saved reference style."
+
+policy:
+  allow_implicit_invocation: true
