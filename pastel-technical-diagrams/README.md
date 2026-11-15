@@ -10,7 +10,17 @@ Create editable technical diagrams in Sarang's saved pastel presentation style. 
 
 ## Install
 
-Copy this entire folder into your assistant's skills directory. For Codex, run from the repository root:
+Install for Codex across projects:
+
+```sh
+npx skills add sarangkharche/skills --skill pastel-technical-diagrams -a codex -g
+```
+
+For Claude Code, replace `codex` with `claude-code`. Omit `-g` to install only in the current project.
+
+You need Node.js 22.20 or later and Git. The command fetches the complete skill folder, including its documents, templates and examples. See the [repository installation guide](../README.md#quick-install) for more options.
+
+Alternatively, copy this entire folder manually. From the cloned repository root:
 
 ```sh
 cp -R ./pastel-technical-diagrams ~/.codex/skills/
