@@ -9,14 +9,6 @@ Reusable AI skills maintained by Sarang Kharche. Each folder contains a `SKILL.m
 | [Clear Technical English](clear-technical-english/README.md) | Clearer technical explanations and instructions | `clear-technical-english` |
 | [Pastel Technical Diagrams](pastel-technical-diagrams/README.md) | Editable Draw.io diagrams using a consistent pastel palette, typography and layout | `pastel-technical-diagrams` |
 
-## Diagram style preview
-
-Pastel Technical Diagrams uses soft category colours, plain typography and thin outlines. Here is the editable architecture example:
-
-![Sample agent architecture diagram with pastel blue, green, orange, purple and yellow components on a white background](pastel-technical-diagrams/assets/architecture.drawio.png)
-
-[Download the editable Draw.io example](pastel-technical-diagrams/assets/architecture.drawio) · [Read the diagram skill guide](pastel-technical-diagrams/README.md)
-
 ## Quick install
 
 You need Node.js 22.20 or later and Git. Run this command to choose skills and an assistant interactively:
