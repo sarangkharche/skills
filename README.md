@@ -9,6 +9,7 @@ Each skill lives in its own folder. Its README explains what it does, how to use
 | Skill | Purpose |
 | --- | --- |
 | [Clear Technical English](clear-technical-english/README.md) | Clearer technical explanations and instructions |
+| [Pastel Technical Diagrams](pastel-technical-diagrams/README.md) | Editable Draw.io diagrams in a consistent pastel presentation style |
 
 ## Install a skill
 
