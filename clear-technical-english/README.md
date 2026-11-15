@@ -29,14 +29,30 @@ The skill separates the two prerequisites into a numbered list and addresses the
 
 ## Install
 
-Clone the repository and enter its directory:
+Install for Codex across projects:
+
+```sh
+npx skills add sarangkharche/skills --skill clear-technical-english -a codex -g
+```
+
+Install for Claude Code across projects:
+
+```sh
+npx skills add sarangkharche/skills --skill clear-technical-english -a claude-code -g
+```
+
+Omit `-g` to install only in the current project. You need Node.js 22.20 or later and Git. The installer fetches the complete skill folder, including its supporting documents and examples. See the [repository installation guide](../README.md#quick-install) for more options.
+
+### Manual installation
+
+Alternatively, clone the repository and enter its directory:
 
 ```sh
 git clone https://github.com/sarangkharche/skills.git
 cd skills
 ```
 
-### Claude Code
+#### Claude Code
 
 ```sh
 mkdir -p ~/.claude/skills
@@ -45,7 +61,7 @@ cp -R ./clear-technical-english ~/.claude/skills/
 
 For a shared project installation, copy the folder into the project's `.claude/skills/` directory instead.
 
-### Codex
+#### Codex
 
 ```sh
 mkdir -p ~/.codex/skills
