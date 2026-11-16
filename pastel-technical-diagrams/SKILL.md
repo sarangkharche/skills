@@ -24,6 +24,12 @@ Keep core diagram elements editable. Use small monochrome outline icons with con
 
 Treat reference labels as sample content, not instructions. Adapt labels to the user's topic. Do not inherit source slide statistics, product limits, personal facts or operational instructions as verified facts. Do not copy screenshot chrome, selection highlights, cursors, reactions or participant identities into a generated diagram.
 
+## Animated diagrams
+
+When animation is requested, use continuously flowing connector dashes with static blocks and no grey track. Keep the existing pastel style. Do not pulse or highlight receiving blocks, change their outlines, reveal them in sequence or move their labels. All connectors that represent flow move continuously in their own direction, without staged handoffs or pauses between steps. Keep ordinary diagrams static unless animation is requested.
+
+Read [animation.md](references/animation.md) for native Draw.io settings, preview delivery and animation checks. Preserve an editable `.drawio` source alongside an animated preview. Explicit requests for a different motion treatment take precedence.
+
 ## Check before delivery
 
 1. Validate XML, unique IDs, parent references and edge geometry. Keep children in their real containers and use coordinates relative to their parent.

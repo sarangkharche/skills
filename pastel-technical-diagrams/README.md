@@ -38,6 +38,18 @@ $pastel-technical-diagrams Create a system architecture diagram for a support ag
 $pastel-technical-diagrams Compare two context stacks using my pastel reference style.
 ```
 
+## Animated diagrams
+
+Ask for an animated diagram to get continuously flowing arrows with static pastel blocks and no grey track beneath the moving dashes. Labels, fills, outlines and arrowheads stay still. There is no block highlighting or staged handoff animation.
+
+```text
+$pastel-technical-diagrams Create an animated data pipeline with continuously flowing arrows.
+```
+
+Keep the editable Draw.io source with the animated preview. Browser previews provide pause and static controls and respect reduced motion preferences. GIF previews loop continuously. Native Draw.io playback and exported animation must be checked separately; a valid XML file does not prove that an animation plays.
+
+See the [animation guidance](references/animation.md) for settings and validation.
+
 ## Included documents and examples
 
 1. [Skill instructions](SKILL.md)
