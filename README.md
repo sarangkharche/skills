@@ -9,6 +9,12 @@ Reusable AI skills maintained by Sarang Kharche. Each folder contains a `SKILL.m
 | [Clear Technical English](clear-technical-english/README.md) | Clearer technical explanations and instructions | `clear-technical-english` |
 | [Pastel Technical Diagrams](pastel-technical-diagrams/README.md) | Editable Draw.io diagrams using a consistent pastel palette, typography and layout | `pastel-technical-diagrams` |
 
+## Compact flow example
+
+![Draft article → Review draft → Publish article](pastel-technical-diagrams/assets/article-review.png)
+
+[Open the editable Draw.io file](pastel-technical-diagrams/assets/article-review.drawio).
+
 ## Quick install
 
 You need Node.js 22.20 or later and Git. Run this command to choose skills and an assistant interactively:
