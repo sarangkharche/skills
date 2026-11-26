@@ -7,7 +7,11 @@ Reusable AI skills maintained by Sarang Kharche. Each folder contains a `SKILL.m
 | Skill | Purpose | Skill name |
 | --- | --- | --- |
 | [Clear Technical English](clear-technical-english/README.md) | Clearer technical explanations and instructions | `clear-technical-english` |
+| [Design Resources Figma](design-resources-figma/README.md) | Choose and check typography, contrast, motion and accessibility across platforms | `design-resources-figma` |
+| [Ginormous Figma](ginormous-figma/README.md) | Design and review Figma components, adapt layouts and prepare developer handoff | `ginormous-figma` |
 | [Pastel Technical Diagrams](pastel-technical-diagrams/README.md) | Editable Draw.io diagrams using a consistent pastel palette, typography and layout | `pastel-technical-diagrams` |
+
+Use both when designing or reviewing a screen in Figma. For example, use Ginormous Figma to define a button’s layout and states and Design Resources Figma to check that its label and focus indicator are easy to see.
 
 ## Compact flow example
 
