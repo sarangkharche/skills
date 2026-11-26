@@ -51,3 +51,7 @@ Leave label clearance above horizontal lines. Neither label bounds nor glyphs ma
 Fade inactive components, labels, icons and links together to light grey on focus slides. Retain the active component's category fill, stronger outline and black label. Keep one consistent accent across section number and active step marker.
 
 Never recreate Zoom controls, participant faces or names, reactions, PDF page counters, desktop borders, stray pen marks, cursor or blue text selection. Grey text selection in a screenshot is not an intentional default text highlight. Handwritten captions occur occasionally as secondary annotations; they do not replace the default typography.
+
+### Compact process diagrams
+
+Use the user's preferred compact process block of 120 × 60 Draw.io units as the starting size. Use short centred labels, regular Arial, flat pastel fills, thin outlines and generous white space. Give the main sequence one reading direction and keep exceptions on a separate aligned row. Use a dashed enclosing boundary only when it identifies a real system or group. Keep longer explanations in notes or on a detail page. Scale the composition proportionally for the display size. Reference: ByteByteGo, Building AI Agents slides, pages 9 and 11, https://assets.bytebytego.com/Building-AI-Agents-Slides.pdf.

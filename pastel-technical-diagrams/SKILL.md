@@ -7,6 +7,12 @@ description: Create or refine editable Draw.io diagrams in Sarang's pastel techn
 
 Reproduce the visual language in the supplied references: white space, regular Arial text, flat pastel category fills, thin outlines and precise connectors. The sample was positively reviewed by Sarang. The screenshots do not establish the original font or source colour tokens; the bundled values define our recreation preset, not a verified extraction.
 
+## Default for process flows
+
+Start each process block at 120 × 60 Draw.io units. Keep the 2:1 proportions when scaling the diagram. Use a short, centred action label and move longer explanations to notes or a second editable page.
+
+Give the main flow one clear reading direction. Align branches with the steps they connect to and leave enough space to trace each arrow. Use regular Arial, flat pastel fills and thin outlines. See the [compact process diagram guide](references/style-guide.md#compact-process-diagrams).
+
 ## Resources
 
 1. Read [style-guide.md](references/style-guide.md) for palette, typography, geometry and connector rules. Machine readable values are in [tokens.json](assets/tokens.json).
