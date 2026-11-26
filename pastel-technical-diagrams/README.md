@@ -42,6 +42,12 @@ $pastel-technical-diagrams Compare two context stacks using my pastel reference 
 
 Process blocks start at 120 × 60 Draw.io units and keep their 2:1 proportions when scaled. Use short centred action labels. Align branches with the steps they connect to and keep longer explanations in notes or on a second editable page. [See the layout guidance](references/style-guide.md#compact-process-diagrams).
 
+### Example: article review
+
+![Three compact blocks connected from left to right: Draft article, Review draft and Publish article.](assets/article-review.png)
+
+[Open the editable Draw.io example](assets/article-review.drawio).
+
 ## Animated diagrams
 
 Ask for an animated diagram to get continuously flowing arrows with static pastel blocks and no grey track beneath the moving dashes. Labels, fills, outlines and arrowheads stay still. There is no block highlighting or staged handoff animation.
