@@ -33,6 +33,12 @@ The default installation applies to the current project. Add `-g` to make a skil
 
 ### Codex
 
+Install both Figma skills across projects for Codex:
+
+```sh
+npx skills add sarangkharche/skills --skill ginormous-figma design-resources-figma -a codex -g
+```
+
 Install Pastel Technical Diagrams across projects:
 
 ```sh
